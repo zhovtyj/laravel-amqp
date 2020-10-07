@@ -89,7 +89,7 @@ abstract class Context
     // public function getRpcMethod(string $key)
     // {
     //     return array_key_exists($key, $this->methods) ? $this->methods[$key] : null;
-    }
+    //}
 
     /**
      * @param string $key
