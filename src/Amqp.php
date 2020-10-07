@@ -82,7 +82,7 @@ class Amqp
         );
         $publisher->getChannel()->wait(null, false, $timeout);
 
-        return $response ? json_decode($response->getBody()) : null;
+        return $response ? $response->getBody() : null;
     }
 
     /**
