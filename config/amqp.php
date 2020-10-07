@@ -15,9 +15,9 @@ return [
     | AMQP key (method name) and methods (class implement Bschmitt\Amqp\Rpc\RpcHandlerInterface)
     |--------------------------------------------------------------------------
     */
-    'methods' => [
-        'example' => Bschmitt\Amqp\Rpc\ExampleRpc::class,
-    ],
+    // 'methods' => [
+    //     'example' => Bschmitt\Amqp\Rpc\ExampleRpc::class,
+    // ],
 
     /*
     |--------------------------------------------------------------------------
